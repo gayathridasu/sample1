@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   
+    <img src="https://cms.interiorcompany.com/wp-content/uploads/2024/01/lotus-beautiful-flowers.jpg" width="500" alt=""> <br>
+    <button onclick="myfun1()">Rotate 90 deg</button>
+    <button onclick="myfun2()">Rotate 180 deg</button>
+    <button onclick="myfun3()">Rotate 360 deg</button>
+    
+
+
+    <script>
+        function myfun1(){
+            img = document.getElementsByTagName("img")
+            img[0].style.transform="rotate(90deg)";
+        }
+
+        function myfun2(){
+            img = document.getElementsByTagName("img")
+            img[0].style.transform="rotate(180deg)";
+            
+        }
+
+        function myfun3(){
+            img = document.getElementsByTagName("img")
+            img[0].style.transform="rotate(360deg)";
+            
+        }
+    
+    
+
+    </script>
+</body>
+</html>
